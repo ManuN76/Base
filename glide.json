@@ -1,0 +1,16 @@
+{
+  "kind": "column",
+  "name": "Base",
+  "description": "Base",
+  "author": "Manu.n",
+  "params": [
+    {
+      "name": "str",
+      "displayName": "String",
+      "type": "string"
+    }
+  ],
+  "result": {
+    "type": "string"
+  }
+}
