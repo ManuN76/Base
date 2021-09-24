@@ -21,8 +21,12 @@ let text = { type: "string", value: "Manu Na" };
 //  let number = { type: "number", value: 4 };
 //  let date = { type: "date-time", value: new Date().toString() };
 let result = await window.function(text);
-document.getElementById("result").innerHTML = result;
+document.getElementById("result").innerHTML = convert(result);
 
+
+//let result2 = decodeURIComponent(result);
+//result2 = result2.replace('data:text/html;charset=utf-8,', '');
+//document.write(result2);
 }
 </script>
 </body>
